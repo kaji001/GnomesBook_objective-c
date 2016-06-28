@@ -1,0 +1,17 @@
+//
+//  ProfileViewController.h
+//  GnomesBook
+//
+//  Created by Mario Martinez on 26/6/16.
+//  Copyright © 2016 Brastlewark Town. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "Gnome.h"
+
+@interface ProfileViewController : UIViewController
+
+@property(nonatomic, strong) Gnome  *gnome;
+
+@end
